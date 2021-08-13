@@ -25,7 +25,7 @@ import de.robv.android.xposed.XposedHelpers;
 import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
 public class HookModule implements IXposedHookLoadPackage {
-    public final String TAG = "easy_Hook";
+    public static final String TAG = "easy_Hook";
     private String packageName = null;
     private String className = null;
     private String methodName = null;
